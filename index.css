@@ -1,29 +1,28 @@
 
 html,body{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
     padding: 0px;
+    background-color:#D0D6DB;
     
 }
 header{ 
     z-index: 10;
+    background-color: #7E999B ;
+    box-shadow: 0px 1px 15px #231F20;
 }
 
 section{
     display: flex;
     justify-content: center;
-   
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 20px;
     padding-right: 20px;
     margin: auto;
+    border-bottom: 2px #7E999B solid;
+    box-shadow: 0px 1px 15px #231F20;
 }
-
-section:nth-child(odd){
-    background-color: #F2F2F2;
-    box-shadow: 0px 0px 5px #e3e3e5;
-} 
 
 .gotop{
     position: fixed;
@@ -102,6 +101,7 @@ span{
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 900;
+    color: #354B4E;
 }
 
 .head-function {
@@ -111,6 +111,7 @@ span{
     text-transform: uppercase;
     font-weight: 300;
     border-top: 2px solid black;
+    color: #322F2C;
 }
 
 
@@ -137,8 +138,8 @@ label, input{
 
 nav{
     display: flex;
-    background-color: #ffffff;
-    box-shadow: 0px 1px 15px #888888;
+    background-color: #C1BAB4;
+    box-shadow: 0px 1px 15px #231F20;
     padding-bottom: 2px;
 
 }
@@ -155,7 +156,7 @@ li {
 }
 
 a {
-    color:#a7a9aa;
+    color:#354B4E;
     text-decoration: none;  
   
 }
@@ -233,15 +234,16 @@ a:hover{
 }
 
 footer{
-    background-color: #242424;
+    background-color: #C1BAB4;
     padding-top: 20px;
     padding-bottom: 40px;
+    box-shadow: 0px 1px 15px #231F20;
     
 }
 
 #contact{
    
-    color: #777777;
+    color: #354B4E;
 }
 
 .contact-li{
@@ -249,7 +251,7 @@ footer{
 }
 
 #contact1-hover:hover{
-    color: #e0e0e0;
+    color: #878787;
   
 }
  
@@ -273,7 +275,7 @@ img{
 }
 
 .droits{
-    color: #606060;
+    color: #878787;
 }
 /*===========================Media Queri ===================*/
 
